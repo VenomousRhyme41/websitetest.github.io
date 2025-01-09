@@ -1,0 +1,255 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCryptoCoin</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: #f8f9fa; /* Default background for body */
+        }
+
+        header {
+            background: #343a40; /* Header color */
+            color: #fff;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #495057;
+            border-radius: 5px;
+        }
+
+        .hero {
+            height: 100vh;
+            background: linear-gradient(135deg, #2a69ac, #1e4f78); /* Gradient background */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px; /* Added padding */
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.5em; /* Increased font size for better readability */
+            margin-bottom: 20px;
+        }
+
+        button, .cta a {
+            padding: 8px 15px; /* Smaller button size */
+            font-size: 0.9em; /* Slightly smaller font size */
+            border: none;
+            background: #28a745; /* Button color */
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s, transform 0.3s; /* Animation for all buttons */
+            width: 150px; /* Fixed width for smaller uniformity */
+            text-align: center; /* Center text in anchor tags */
+            display: inline-block; /* Make anchors behave like buttons */
+            margin: 5px 0; /* Margin for spacing */
+            text-decoration: none; /* Remove underline */
+        }
+
+        button:hover, .cta a:hover {
+            background: #218838; /* Darker green on hover */
+            transform: translateY(-2px);
+        }
+
+        /* CTA Section */
+        .cta {
+            background-color: #2a69ac; /* Consistent background color */
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 10px;
+            position: relative; /* Allow positioning of children */
+            margin-top: 30px; /* Space above to avoid overlap */
+            z-index: 1; /* Position above hero */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            color: white; /* Text color for the CTA */
+        }
+
+        .cta h2 {
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        /* CA Text Style */
+        .ca-text {
+            display: block; /* Make it a block to be on a new line */
+            margin-top: 10px; /* Space above */
+            font-size: 1.2em; /* Increased font size */
+            font-weight: bold; /* Make it bold */
+            color: #ffffff; /* White text color for visibility */
+            background-color: #28a745; /* Green background for emphasis */
+            padding: 10px; /* Padding around the text */
+            border-radius: 5px; /* Rounded corners */
+            width: fit-content; /* Adjust width based on content */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Small shadow */
+            margin: 10px auto; /* Centering */
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #ffffff; /* White background for the section */
+            color: #333; /* Darker text color */
+            border-top: 1px solid #dee2e6;
+            border-bottom: 1px solid #dee2e6;
+            margin: 20px 0; /* Space between sections */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #343a40; /* Footer color */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+
+            .cta h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MyCryptoCoin</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to MyCryptoCoin</h1>
+            <p>The future of digital currency starts here.</p>
+            
+
+            <!-- Call to Action Section -->
+            <div class="cta">
+                <h2>Join our community:</h2>
+                
+                
+                <div>
+                    <a href="https://pump.fun" target="_blank">pump.fun</a>
+                    <a href="https://t.me/YourTelegramLink" target="_blank">Telegram</a>
+                    <a href="https://twitter.com/YourTwitterLink" target="_blank">Twitter</a>
+                </div>
+                <h3>CA: FVGaEDmvsa6iLeACPU1Gf8GYZbjFX3tcrezGbRYjpump</h3> <!-- Moved CA here -->
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About MyCryptoCoin</h2>
+            <p>MyCryptoCoin is a decentralized cryptocurrency that aims to change the way we transact online. Built on secure blockchain technology, it empowers users with control over their financial future.</p>
+        </section>
+
+        <section id="features" class="section">
+            <h2>Features</h2>
+            <ul>
+                <li>🚀 Fast Transactions</li>
+                <li>💸 Low Fees</li>
+                <li>🔒 Highly Secure</li>
+                <li>🌐 Global Reach</li>
+            </ul>
+        </section>
+
+        <section id="roadmap" class="section">
+            <h2>Roadmap</h2>
+            <p>2023: Launch <br> 2024: Exchange Listings <br> 2025: Community Governance</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:support@mycryptocoin.com" style="color: #007bff;">support@mycryptocoin.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 MyCryptoCoin. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling functionality
+        document.getElementById('getStartedBtn').addEventListener('click', function() {
+            document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Enable scrolling to sections from the navigation
+        const navLinks = document.querySelectorAll('nav ul li a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                const targetId = this.getAttribute('href');
+                document.querySelector(targetId).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
+
+</body></html>
